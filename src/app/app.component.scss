@@ -1,0 +1,102 @@
+:host {
+  font-family: "Lato", "Times New Roman", "Inter", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+    background-image: url("../assets/img/emile-seguin.png");
+    background-size: cover;
+    background-position: center;
+  }
+  
+.background-image {
+    position: absolute; 
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/img/emile-seguin.png");
+    background-size: contain; 
+    background-position: inherit; 
+  }
+  
+  
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-size: 32px;
+  text-align: center;
+}
+
+h1,
+p {
+  font-family: "Lato";
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 90px;
+  width: 100%;
+  max-width: 676px;
+  height: auto;
+  letter-spacing: 0.001em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+  width: 100%;
+  max-width: 632px;
+  height: auto;
+  color: #7c7c7c;
+  margin-bottom: 20px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 250px;
+  height: 66px;
+  padding: 24px 56px;
+  background: #06040a;
+  color: #ffffff;
+  font-family: "Lato";
+  font-weight: 500;
+  font-size: 22px;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 20px 40px;
+  }
+}
